@@ -1,0 +1,145 @@
+.overlay{
+    position: absolute;
+    top:42%;
+    left:10%;
+
+}
+.overlay2{
+        position: absolute;
+        top:49%;
+        left:10%;
+}
+.overlay2 h1{
+    font-family: "Kanit", sans-serif;
+    font-size: 50px;
+}
+.overlay3{
+    position: absolute;
+    top:69%;
+    left:17%;
+}
+h2{
+    background-color: rgb(255, 209, 122);
+    text-align: center;
+    padding: 30px;
+}
+.row{
+    
+    display: flex;
+    justify-content: center;
+    margin:30px;
+}
+.row h3{
+    text-align: center;
+}
+.row2{
+    display: flex;
+    justify-content: center;
+}
+.col2{
+    margin: 10px;
+    position: relative;
+}
+.col2 img{
+    height:200px;
+    width:300px;
+}
+.row3{
+    background-color: rgb(255, 209, 122);
+    
+    color:white;
+}
+.row3 h5{
+    padding:30px;
+    margin-left: 113px;
+}
+.col3{
+    margin-left: 56px;
+
+}
+.col4{
+    margin-top:-19px ;
+    margin-left: 196px;
+    padding: 5px;
+}
+.col5{
+    margin-top: -37px;
+    margin-left: 1000px;
+    padding: 10px;
+}
+#overlay{
+    position: absolute;
+    z-index: 100;
+    top:2590px;
+    left:140px;
+    font-weight: bolder;
+
+}
+#overlay2{
+    position: absolute;
+    z-index: 100;
+    top:2590px;
+    left:500px;
+    font-weight: bolder;
+
+}
+#overlay3{
+    position: absolute;
+    z-index: 100;
+    top:2590px;
+    left:850px;
+    font-weight: bolder;
+
+}
+#overlay4{
+    position: absolute;
+    z-index: 100;
+    top:2590px;
+    left:1200px;
+    font-weight: bolder;
+
+}
+.copy{
+    text-align: center;
+    color: gray;
+}
+.ic{
+    margin-left: 985px;
+    margin-top:-160px;
+}
+
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .col2:hover .image {
+    opacity: 0.3;
+  }
+  
+  .col2:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    
+    color: grey;
+    font-size: 25px;
+    /*padding: 16px 32px;*/
+  }
+  
